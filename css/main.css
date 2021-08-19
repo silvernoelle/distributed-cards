@@ -59,3 +59,26 @@ ol li:nth-child(3), ol li:nth-child(4) {
   border: 2px solid #623b0c;
   border-radius: 8px;
 }
+
+img {
+  width: 100%;
+}
+
+a {
+  background-color: #623b0c;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  padding: .7em .6em .5em;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.2em .75em;
+  justify-content: space-between;
+}
+
+li p {
+  flex-grow: 1;
+}
