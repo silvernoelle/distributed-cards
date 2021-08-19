@@ -35,3 +35,27 @@ h1 {
 p {
   margin: 1.5em 0;
 }
+
+ol {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  list-style-type: none;
+  gap: 1rem;
+  row-gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+ol li:first-child, ol li:nth-child(2) {
+  grid-row: 1;
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+}
+
+ol li:nth-child(3), ol li:nth-child(4) {
+  grid-row: 2;
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+}
