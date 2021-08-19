@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  background-color: #f5f2f0;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  grid-template-columns: auto;
+  margin: 0;
+}
+
+main {
+  margin: 1.2rem 1rem 1rem;
+}
+
+h1, h2 {
+  color: #623b0c;
+  font-family: "Denk One", sans-serif;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  margin-top: .1em;
+}
+
+h1 {
+  margin-top: 1rem;
+}
+
+p {
+  margin: 1.5em 0;
+}
